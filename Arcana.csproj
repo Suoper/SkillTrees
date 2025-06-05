@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\mrbea\AppData\Local\Temp\Rar$DIa22948.21955.rartemp\Arcana.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E0317B91-251B-41EF-BDB4-FBCFA5902ABF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Arcana</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Arcana</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="UnityEngine.CoreModule" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Statuses\ArcaneStatus.cs" />
+    <Compile Include="Statuses\StatusDataArcane.cs" />
+    <Compile Include="Spells\ArcaneMerge.cs" />
+    <Compile Include="Spells\ArcaneBolt.cs" />
+    <Compile Include="Skills\SkillArcaneBlazingContact.cs" />
+    <Compile Include="Skills\SkillArcaneChargedArcana.cs" />
+    <Compile Include="Skills\SkillArcaneInstabilityBurst.cs" />
+    <Compile Include="Skills\SkillArcaneLevitation.cs" />
+    <Compile Include="Skills\SkillArcaneFragments.cs" />
+    <Compile Include="Skills\SkillArcaneBlink.cs" />
+    <Compile Include="Skills\SkillArcaneBoltVortex.cs" />
+    <Compile Include="Skills\SkillArcaneOrbDissipation.cs" />
+    <Compile Include="Skills\SkillArcaneOrdinance.cs" />
+    <Compile Include="Skills\SkillArcaneGravitonCoil.cs" />
+    <Compile Include="Skills\SkillArcaneSpellPunch.cs" />
+    <Compile Include="Skills\SkillArcaneVolucrisIgnis.cs" />
+    <Compile Include="Skills\SpellSkillArcaneChromaticProjectile.cs" />
+    <Compile Include="Skills\SkillArcaneSapping.cs" />
+    <Compile Include="Skills\SkillArcaneResonance.cs" />
+    <Compile Include="Skills\SkillArcaneSurge.cs" />
+    <Compile Include="Skills\SkillArcaneSentience.cs" />
+    <Compile Include="Skills\SkillArcaneBarrage.cs" />
+    <Compile Include="Skills\SkillArcaneExplosiveBlink.cs" />
+    <Compile Include="Skills\SpellMerge\SpellArcaneMergeSkillData.cs" />
+    <Compile Include="Skills\SpellMerge\SkillArcaneOrb.cs" />
+    <Compile Include="Skills\SpellMerge\SkillArcaneTempest.cs" />
+    <Compile Include="Skills\SpellMerge\SkillPyroclasticLance.cs" />
+    <Compile Include="Skills\SpellMerge\SkillGravitationalRift.cs" />
+    <Compile Include="Skills\SpellMerge\SkillThunderbond.cs" />
+    <Compile Include="Skills\Serpents\SkillArcaneClarity.cs" />
+    <Compile Include="Skills\Serpents\SkillArcaneEmpoweringBond.cs" />
+    <Compile Include="Skills\Serpents\SkillArcaneLastingBond.cs" />
+    <Compile Include="Skills\Serpents\SkillArcaneSerpents.cs" />
+    <Compile Include="Skills\Serpents\EmpoweredMerge\EmpoweredArcanaMerge.cs" />
+    <Compile Include="Skills\Serpents\EmpoweredMerge\EmpoweredFireMerge.cs" />
+    <Compile Include="Skills\Serpents\EmpoweredMerge\EmpoweredLightningMerge.cs" />
+    <Compile Include="Skills\Serpents\EmpoweredMerge\EmpoweredMergeData.cs" />
+    <Compile Include="Skills\Barrier\SkillArcaneBarrierSerpents.cs" />
+    <Compile Include="Skills\Barrier\SkillArcaneBarrier.cs" />
+    <Compile Include="Skills\Barrier\SkillArcaneFireBarrier.cs" />
+    <Compile Include="Skills\Barrier\SkillArcaneGravityBarrier.cs" />
+    <Compile Include="Skills\Barrier\SkillArcaneLightningBarrier.cs" />
+    <Compile Include="Skills\Barrier\SkillArcaneLockdown.cs" />
+    <Compile Include="Modules\ItemModuleFireSpear.cs" />
+    <Compile Include="Misc\BeamManager.cs" />
+    <Compile Include="Misc\ParticleLifetimeScaler.cs" />
+    <Compile Include="Misc\SpellStatusImbueable.cs" />
+    <Compile Include="Misc\MaterialSwapManager.cs" />
+    <Compile Include="Misc\CreatureMaterialContainer.cs" />
+    <Compile Include="Misc\PlaneClipManager.cs" />
+    <Compile Include="Misc\ProjectileManager.cs" />
+    <Compile Include="Misc\PhysicsTogglePatcher.cs" />
+    <Compile Include="Misc\ReflectionUtilities.cs" />
+    <Compile Include="Misc\SpellStatus.cs" />
+    <Compile Include="Misc\CustomMusicPatcher.cs" />
+    <Compile Include="Misc\Utilities.cs" />
+    <Compile Include="Misc\UnityExtensions.cs" />
+    <Compile Include="Misc\ThunderRoadExtensions.cs" />
+    <Compile Include="Misc\ParticleExtensions.cs" />
+    <Compile Include="Misc\ChromaticParticles.cs" />
+    <Compile Include="Golem\GolemAbilityLoader.cs" />
+    <Compile Include="Golem\GolemArcaneBeam.cs" />
+    <Compile Include="Golem\GolemArcaneHeadCast.cs" />
+    <Compile Include="Golem\GolemArcaneProjectileBeam.cs" />
+    <Compile Include="Behaviors\ArcaneOrbStatusApplicator.cs" />
+    <Compile Include="Behaviors\DragonStorm.cs" />
+    <Compile Include="Behaviors\FireSpear.cs" />
+    <Compile Include="Behaviors\GravitonLink.cs" />
+    <Compile Include="Behaviors\LightningDragon.cs" />
+    <Compile Include="Behaviors\MaxDepthDetector.cs" />
+    <Compile Include="Behaviors\OrbMovementController.cs" />
+    <Compile Include="Behaviors\RigidBodyPD.cs" />
+    <Compile Include="Behaviors\RadialLightning.cs" />
+    <Compile Include="Behaviors\RotateAroundCenter.cs" />
+    <Compile Include="Behaviors\Serpent.cs" />
+    <Compile Include="Behaviors\SmoothFollowAndLookAt.cs" />
+    <Compile Include="Behaviors\SpellPunchDetector.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\mrbea\AppData\Local\Temp\Rar$DIa25472.41565.rartemp\Crystallic.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A74065CC-C595-4429-9E1F-30A0571168CA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Crystallic</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony" />
+    <Reference Include="System.Core" />
+    <Reference Include="UnityEngine.CoreModule" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Utils.cs" />
+    <Compile Include="GameObjectExtensions.cs" />
+    <Compile Include="ThunderEntityExtensions.cs" />
+    <Compile Include="CreatureExtensions.cs" />
+    <Compile Include="ItemExtensions.cs" />
+    <Compile Include="ReflectionExtensions.cs" />
+    <Compile Include="EffectInstanceExtensions.cs" />
+    <Compile Include="System\Runtime\CompilerServices\RefSafetyRulesAttribute.cs" />
+    <Compile Include="Crystallic\ColorType.cs" />
+    <Compile Include="Crystallic\Ending.cs" />
+    <Compile Include="Crystallic\EndingContent.cs" />
+    <Compile Include="Crystallic\GolemLithoweb.cs" />
+    <Compile Include="Crystallic\ImbueGravityBehavior.cs" />
+    <Compile Include="Crystallic\JointEffect.cs" />
+    <Compile Include="Crystallic\Settings.cs" />
+    <Compile Include="Crystallic\CrystalCluster.cs" />
+    <Compile Include="Crystallic\Options.cs" />
+    <Compile Include="Crystallic\Crystallised.cs" />
+    <Compile Include="Crystallic\DyeData.cs" />
+    <Compile Include="Crystallic\DyeMixture.cs" />
+    <Compile Include="Crystallic\Dye.cs" />
+    <Compile Include="Crystallic\ForceFieldPresetData.cs" />
+    <Compile Include="Crystallic\ImbueBehavior.cs" />
+    <Compile Include="Crystallic\ImbueFireBehavior.cs" />
+    <Compile Include="Crystallic\ImbueLightningBehavior.cs" />
+    <Compile Include="Crystallic\InvasionContent.cs" />
+    <Compile Include="Crystallic\Lerper.cs" />
+    <Compile Include="Crystallic\LockMovement.cs" />
+    <Compile Include="Crystallic\GolemPart.cs" />
+    <Compile Include="Crystallic\HeadPart.cs" />
+    <Compile Include="Crystallic\NoiseController.cs" />
+    <Compile Include="Crystallic\NoiseMode.cs" />
+    <Compile Include="Crystallic\Part.cs" />
+    <Compile Include="Crystallic\LorePack.cs" />
+    <Compile Include="Crystallic\StartContent.cs" />
+    <Compile Include="Crystallic\StatusDataCrystallised.cs" />
+    <Compile Include="Crystallic\StatusDataLockMovement.cs" />
+    <Compile Include="Crystallic\Stinger.cs" />
+    <Compile Include="Crystallic\TowerLaser.cs" />
+    <Compile Include="Crystallic\TowerLaserType.cs" />
+    <Compile Include="Crystallic\Skill\Lithoweb.cs" />
+    <Compile Include="Crystallic\Skill\MaxDepthDetector.cs" />
+    <Compile Include="Crystallic\Skill\SkillBoltAbsorption.cs" />
+    <Compile Include="Crystallic\Skill\SkillBoltbomb.cs" />
+    <Compile Include="Crystallic\Skill\SkillCompactShot.cs" />
+    <Compile Include="Crystallic\Skill\SkillCrystalCentrifuge.cs" />
+    <Compile Include="Crystallic\Skill\SkillCrystalDilation.cs" />
+    <Compile Include="Crystallic\Skill\SkillExplosiveEmbers.cs" />
+    <Compile Include="Crystallic\Skill\SkillExplosiveSwarm.cs" />
+    <Compile Include="Crystallic\Skill\SkillLithowebs.cs" />
+    <Compile Include="Crystallic\Skill\SkillSeekingShards.cs" />
+    <Compile Include="Crystallic\Skill\SkillShardDilation.cs" />
+    <Compile Include="Crystallic\Skill\SkillShreddingShards.cs" />
+    <Compile Include="Crystallic\Skill\SkillSlowStingers.cs" />
+    <Compile Include="Crystallic\Skill\SkillSlowTimeData.cs" />
+    <Compile Include="Crystallic\Skill\SkillCrystalFracture.cs" />
+    <Compile Include="Crystallic\Skill\SkillCrystalHunter.cs" />
+    <Compile Include="Crystallic\Skill\SkillCrystalImbueHandler.cs" />
+    <Compile Include="Crystallic\Skill\SkillCrystallicDash.cs" />
+    <Compile Include="Crystallic\Skill\SkillCrystallicDive.cs" />
+    <Compile Include="Crystallic\Skill\SkillCrystallisation.cs" />
+    <Compile Include="Crystallic\Skill\SkillCrystalSapping.cs" />
+    <Compile Include="Crystallic\Skill\SkillCrystalStinger.cs" />
+    <Compile Include="Crystallic\Skill\SkillCrystalSwarm.cs" />
+    <Compile Include="Crystallic\Skill\SkillCrystalWarrior.cs" />
+    <Compile Include="Crystallic\Skill\SkillHyperdetonation.cs" />
+    <Compile Include="Crystallic\Skill\SkillHyperintensity.cs" />
+    <Compile Include="Crystallic\Skill\SkillObsidianStinger.cs" />
+    <Compile Include="Crystallic\Skill\SkillOverchargedCore.cs" />
+    <Compile Include="Crystallic\Skill\SkillCrystalImbuement.cs" />
+    <Compile Include="Crystallic\Skill\SkillSpellDash.cs" />
+    <Compile Include="Crystallic\Skill\SkillSpellPair.cs" />
+    <Compile Include="Crystallic\Skill\SkillCrystallicQuasar.cs" />
+    <Compile Include="Crystallic\Skill\SkillAbsorptionData.cs" />
+    <Compile Include="Crystallic\Skill\SkillStatusPair.cs" />
+    <Compile Include="Crystallic\Skill\SkillStingshot.cs" />
+    <Compile Include="Crystallic\Skill\SkillTemporalImbuement.cs" />
+    <Compile Include="Crystallic\Skill\SkillThickSkin.cs" />
+    <Compile Include="Crystallic\Skill\Spell\SpellCastCrystallic.cs" />
+    <Compile Include="Crystallic\Patches\CombinationMechanismPatch.cs" />
+    <Compile Include="Crystallic\Patches\RaidStopPatch.cs" />
+    <Compile Include="Crystallic\Patches\SkillTreeOrbPatch.cs" />
+    <Compile Include="Crystallic\Patches\AnnihilationEndingPatch.cs" />
+    <Compile Include="Crystallic\Patches\TeleporterToHomePatch.cs" />
+    <Compile Include="Crystallic\Modules\CustomStartModule.cs" />
+    <Compile Include="Crystallic\Modules\GolemAbilityModule.cs" />
+    <Compile Include="Crystallic\Modules\GolemHandlerModule.cs" />
+    <Compile Include="Crystallic\Modules\InvasionModule.cs" />
+    <Compile Include="Crystallic\Modules\LoaderModule.cs" />
+    <Compile Include="Crystallic\Modules\ObeliskModule.cs" />
+    <Compile Include="Crystallic\AI\BoneEffectPair.cs" />
+    <Compile Include="Crystallic\AI\BrainModuleCrystal.cs" />
+    <Compile Include="Crystallic\AI\GolemBrain.cs" />
+    <Compile Include="Crystallic\AI\GolemExtension.cs" />
+    <Compile Include="Crystallic\AI\GolemBrainModule.cs" />
+    <Compile Include="Crystallic\AI\GolemBrainModuleCrystal.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
